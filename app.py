@@ -36,7 +36,7 @@ def handle_post():
     result = "You sent: " + str(topics) + " " + str(length)
 
     #IndexCode
-    openai.api_key  = "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"
+    openai.api_key  = "<KEY>"
 
     def get_completion(prompt, model="gpt-3.5-turbo"):
         messages = [{"role": "user", "content": prompt}]
